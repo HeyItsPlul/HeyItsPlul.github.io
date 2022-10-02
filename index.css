@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(51, 51, 51);
+    padding: 0px;
+    margin: 0px;
+    color: aliceblue;
+    height: 100%;
+}
+
+.SpaceDiv {
+    height: 50px;
+    width: 100%;
+}
+
+.Projects {
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.done {
+    height: 250px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: rgb(131, 131, 131);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.Subtitles {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.projectImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.GotoProjectBTN {
+    height: 50px;
+    width: 200px;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 255, 106);
+    border-style: none;
+    font-weight: bold;
+    text-align: center;
+    font-size:20px;
+    margin-top: 0px;
+    cursor: pointer;
+}
