@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="centre">
+        <div class="main">
+            <div class="BTNS">
+                <p style="color: white; font-size:30px; font-weight:bold;">Tip Calculator</p>
+            </div>
+        
+            <div class="inputsPM">
+            <div class="state"><span class="Text">Bill$: </span> <input type="text" value="1" class="input" id="billInput"></div>
+            <div class="state"><span class="Text">Tip%: </span> <input type="text" value="1" class="input" id="tipInput"></div>
+            </div>
+
+            <div class="plusmin">
+                <div class="amount" >Split: </div>
+                <div class="state1" id="plus">+</div>
+                <div class="amount" id="people">1</div>
+                <div class="state1" id="minus">-</div>
+
+                <div style="height:185px;"></div>
+            </div>
+            <div class="totals">
+            <div class="state3"><p class="header">Total:</p> <p class="totalAmountOverall" id="total">0$</p></div>
+            <div class="state3"><p class="header">Split Amount:</p><p class="totalAmountOverall" id="splitTotal" >0$</p></div>
+            </div>
+    </div>
+    
+    <script src="/app.js"></script>
+
+</body>
+</html>
